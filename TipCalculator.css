@@ -1,0 +1,94 @@
+body {
+    background: linear-gradient(290deg, rgba(159,193,255,1) 0%, rgba(222,195,252,1) 100%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.main {
+    background-color: #fff;
+    width: 50%;
+    max-width: 600px;
+    margin: 50px auto;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+}
+
+h1 {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+button[type="submit"] {
+    background-color: #b4b5e6;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    
+}
+
+button[type="submit"]:hover {
+    background-color: #dfc2fb;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #ddd;
+    margin: 20px 0;
+}
+
+.tipA, .ori0 {
+    margin-bottom: 20px;
+}
+
+.tipB {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.tipAmt, .totBill {
+    font-size: 15px;
+}
+
+#tipAmount, #totalBill, #oriAmount {
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+    color: #b4b5e6;
+}
+
+#totalBill {
+    font-size: 30px;
+}
+
+.each {
+    font-size: 15px;
+    color: rgb(197, 197, 197);
+}
+
+#eachPerson {
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(197, 197, 197);
+}

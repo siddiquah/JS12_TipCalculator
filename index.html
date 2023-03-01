@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calc</title>
+    <link rel="stylesheet" href="TipCalculator.css">
+</head>
+<body>
+    <div class="main">
+        <h1>Tip Calculator</h1>
+        <form>
+            <label for="bill">Bill Amount</label><br>
+            <input type="number" id="bill" name="bill" placeholder="Bill Amount" required>
+            <br>
+            <label for="tip">Tip Percentage</label><br>
+            <input type="number" id="tip" name="tip" placeholder="Tip Percentage" required>
+            <br>
+            <label for="people">Number of People</label><br>
+            <input type="number" id="people" name="people" placeholder="Number of People" required>
+            <br>
+            <button type="submit" id="submit" onclick="calculateTip(); return false;" >Calculate</button>
+        </form>
+    </div>
+    
+    <div class="main">
+        <h1>Total</h1>
+        <div class="total">
+            <div class="ori0">
+                <label class="tipAmt">Bill Amount</label>
+                <label id="oriAmount">₹0.00</label>
+            </div>
+            <div class="tipA">
+                <label class="tipAmt">Tip Amount</label>
+                <label id="tipAmount">₹0.00</label>
+            </div>
+            <hr>
+            <div class="tipB">
+                <label class="totBill">Total Bill</label>
+                <label id="totalBill">₹0.00</label>
+            </div>
+            <div class="each">
+                <label class="eachP">Each Person Pays</label>
+                <label id="eachPerson">₹0.00</label>
+            </div>
+        </div>
+        
+    </div>
+
+
+
+
+
+
+
+
+    <script src="TipCalculator.js"></script>
+</body>
+</html>
